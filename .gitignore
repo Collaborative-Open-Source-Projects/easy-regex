@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# eslint and prettier
+.husky
+coverage
+.prettierignore
+.stylelintignore
+.eslintignore
+stories
+storybook-static
+*.log
+playwright-report
+.nyc_output
+test-results
+junit.xml
+docs
