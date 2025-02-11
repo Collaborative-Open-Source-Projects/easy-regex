@@ -1,35 +1,35 @@
 {
-  "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
-  "plugins": ["unused-imports"],
-  "rules": {
-    // Code quality
-    "no-console": ["warn", { "allow": ["warn", "error"] }], // Allow console.warn and console.error
-    "no-debugger": "error", // Don't allow debugger in production code
+    "extends": ["next/core-web-vitals", "eslint:recommended", "prettier"],
+    "plugins": ["unused-imports"],
+    "rules": {
+        // Code quality
+        "no-console": ["warn", { "allow": ["warn", "error"] }], // Allow console.warn and console.error
+        "no-debugger": "error", // Don't allow debugger in production code
 
-    // Variables and definitions
-    "no-unused-vars": "error", // Ensure no unused variables
-    "no-undef": "error", // Prevent the use of undeclared variables
+        // Variables and definitions
+        "no-unused-vars": "error", // Ensure no unused variables
+        "no-undef": "error", // Prevent the use of undeclared variables
 
-    // Best practices
-    "no-empty-function": "error", // Avoid empty functions
-    "no-eval": "error", // Avoid using eval
-    "consistent-return": "error", // Ensure consistent return behavior
+        // Best practices
+        "no-empty-function": "error", // Avoid empty functions
+        "no-eval": "error", // Avoid using eval
+        "consistent-return": "error", // Ensure consistent return behavior
 
-    // Formatting
-    "indent": ["error", 2], // Ensure consistent indentation (2 spaces)
-    "quotes": ["error", "single"], // Prefer single quotes for strings
-    "semi": ["error", "always"], // Enforce semicolons
+        // Formatting
+        "indent": ["error", 4], // Ensure consistent indentation (2 spaces)
+        "quotes": ["error", "single"], // Prefer single quotes for strings
+        "semi": ["error", "always"], // Enforce semicolons
 
-    // Hooks rules
-    "react-hooks/rules-of-hooks": "error", // Enforce rules of hooks
-    "react-hooks/exhaustive-deps": "warn", // Warn about missing dependencies in useEffect
+        // Hooks rules
+        "react-hooks/rules-of-hooks": "error", // Enforce rules of hooks
+        "react-hooks/exhaustive-deps": "warn", // Warn about missing dependencies in useEffect
 
-    // Prevent accidental global variables
-    "no-global-assign": "error", // Disallow global variable assignment
+        // Prevent accidental global variables
+        "no-global-assign": "error", // Disallow global variable assignment
 
-    // Strict mode
-    "strict": ["error", "global"], // Enforce strict mode globally
-    "no-new": "error", // Disallow the use of `new` for function calls
-    "no-shadow": "error" // Prevent variable shadowing
-  }
+        // Strict mode
+        "strict": ["error", "global"], // Enforce strict mode globally
+        "no-new": "error", // Disallow the use of `new` for function calls
+        "no-shadow": "error" // Prevent variable shadowing
+    }
 }
