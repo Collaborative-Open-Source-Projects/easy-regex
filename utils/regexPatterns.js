@@ -1,5 +1,6 @@
 export const regexData = {
     characterClasses: {
-        digit: '\\d',
+        digit: "/\d",
+        word: "/\w"
     },
 };
